@@ -1,4 +1,6 @@
 /*
+  https://www.youtube.com/watch?v=-GsrYvZoAdA
+  
   RAM에서 수 저장 (비트)
   소수 저장 : IEEE 형식에 맞게 float형은 32비트, double형은 64비트 사용
   float형 : 8비트 : 지수, 부호
