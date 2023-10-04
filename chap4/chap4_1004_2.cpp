@@ -16,3 +16,5 @@ k:  i += 1;
     
     return 0;
 }
+
+// 이걸 for문, while문, do-while문으로 바꿀 수 있어야 함.
