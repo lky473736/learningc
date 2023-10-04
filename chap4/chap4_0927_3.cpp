@@ -23,3 +23,5 @@ int main()
     }
     return 0;
 }
+
+// break랑 continue의 차이
