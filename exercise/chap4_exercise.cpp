@@ -41,9 +41,9 @@ int main()
     }
  
     printf ("%d", z);
-}*/
+} 8은 아래에 서술*/
 
-/*#include <stdio.h>
+#include <stdio.h>
  
 int main()
 {
@@ -66,4 +66,4 @@ int main()
     }
     
     return 0;
-}*/
+}
