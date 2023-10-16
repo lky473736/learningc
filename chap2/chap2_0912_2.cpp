@@ -14,11 +14,11 @@ int main()
     double a = 1.4567890123;
 
     printf ("%c PROGRAM\n", ch);
-    printf ("afkn = %f\n", afkn);
+    printf ("afkn = %f\n", afkn); // 123.450000
     printf ("kbs = %d\nsbs = %d\n", kbs, sbs);
     
-    printf ("a = %f\n", a);
-    printf ("a = %e\n", a);
+    printf ("a = %f\n", a); // 1.456789 (나머지 소수점 버림)
+    printf ("a = %e\n", a); 
 
     return 0;
 }
