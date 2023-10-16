@@ -10,7 +10,8 @@ int main()
     
     printf ("%d\n", i);
     printf ("%f\n", j); // 6.200000
-    printf ("%c", k);
+    printf ("%c\n", k);
+    printf ("%d", k); // k의 아스키 코드 출력
     
     return 0;
 }
