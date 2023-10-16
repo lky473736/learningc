@@ -2,14 +2,14 @@
 
 int main()
 {
-    int i, v1, v2, v3, v4;
-    char c;
-    double d;
+    int i, v1, v2, v3, v4; // 4 byte
+    char c; // 1 byte
+    double d; // 8 byte
     
-    v1 = sizeof(i + d); // double's byte > int's byte
-    v2 = sizeof c;
-    v3 = sizeof d;
-    v4 = sizeof("gachon");
+    v1 = sizeof(i + d); // double's byte > int's byte : 8
+    v2 = sizeof c; // 1
+    v3 = sizeof d; // 8
+    v4 = sizeof("gachon"); // 7 (6 + null)
     
     printf ("%d, %d, %d\n", sizeof i, sizeof c, sizeof d);
     printf ("%d, %d, %d\n", sizeof(int), sizeof(char), sizeof(double));
