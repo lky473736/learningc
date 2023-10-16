@@ -6,7 +6,7 @@ int main()
     
     scanf ("%d %d", &a, &b);
     
-    max = (a > b) ? a : b;
+    max = (a > b) ? a : b; \\ a > b이면 a, a <= b이면 b
     
     printf ("max = %d", max);
     
