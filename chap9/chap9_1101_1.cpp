@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void K(); // K라는 사용자 지정 함수 선언
+
+// void = 함수 수행 시 return 명령문을 사용하지 않는 경우
+
+int main()
+{
+    K();
+    return 0;
+}
+
+void K()
+{
+    printf ("gachon\n");
+    K(); // 자기 자신을 호출하는 함수 (recursive call) -> 이 경우에는 gachon이 무한반복된다 
+}
