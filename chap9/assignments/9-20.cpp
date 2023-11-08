@@ -1,4 +1,4 @@
-/* <아래같이 하면 null문자만 출력됨>
+/* <아래같이 하면 null문자만 출력됨> => 해결 : char 대신 static char 
 #include <stdio.h>
 
 char *get(char c);
@@ -16,7 +16,7 @@ void main()
 
 char *get(char c)
 {
-    char arr[6];
+    static char arr[6];
     
     for (int i = 0; i < 5; i++)
     {
