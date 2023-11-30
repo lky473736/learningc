@@ -17,3 +17,5 @@ void S()
     scanf ("%d", &i);
     printf ("%d", i);
 }
+
+// ...?
