@@ -9,3 +9,7 @@ int main()
     }
     printf ("%d", i);
 }
+
+/* 복습
+static도 auto와 마찬가지로 brace 기호에 주의한다.
+*/
