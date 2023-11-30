@@ -44,4 +44,16 @@ int main()
     printf ("hello, C programming\n");
     return 0;
 }
- 
+
+/* 복습
+프로그래밍의 기본적인 컴파일 후 실행 과정은 아래와 같다.
+1) 사용자가 소스코드를 작성 - source program 
+2) 소스코드 작성 후 compile - object program (compiler / 실행 불가능)
+3) 실행 불가능한 파일을 실행 가능케 함 - link - load module (linkage editor / 실행 가능)
+4) 실행 가능한 파일을 실행 - load
+
+기본적으로 C언어는 범용 언어로써 다양한 표준 시스템 라이브러리와 자료구조를 제공한다.
+대소문자를 구분하며, 개행 문자 등의 escape character가 내장되어 있다.
+복잡한 변수들을 bind하여 사용할 수 있는 구조체와 공용체 시스템을 제공하여, 구조적 프로그래밍 용어라고도 불리운다.
+C언어는 기본 입출력 함수를 제공하지 않기 때문에 표준 입출력 라이브러리 (stdio.h)를 선언하여 사용한다.
+*/
