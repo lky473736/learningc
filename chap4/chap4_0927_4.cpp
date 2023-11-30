@@ -23,3 +23,15 @@ int main()
     }
     return 0;
 }
+
+/* 복습
+출력은 아래와 같다.
+
+odd
+even
+odd
+even
+odd
+
+continue랑 break가 같다고 생각하면 큰 오산이다.
+*/
