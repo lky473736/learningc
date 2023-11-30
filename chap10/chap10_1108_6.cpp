@@ -8,7 +8,7 @@ void main()
     scanf ("%d", &i);
     S();
     S();
-}
+} 
 
 void S()
 {
