@@ -7,8 +7,8 @@ int main()
     
     for (i = 1; i < 6; i++) 
     {
-        scanf("%c", &a);
-        b = getchar(); // <--- 버퍼 처리를 위해서
+        scanf("%c", &a); 
+        b = getchar(); // <--- 버퍼 처리를 위해서 (만약 없으면 이상해짐)
         // int _=getchar();도 같은 의미
         
         switch (a) 
