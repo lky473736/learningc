@@ -9,7 +9,7 @@ int main()
     v1 = sizeof(i + d); // double's byte > int's byte : 8
     v2 = sizeof c; // 1
     v3 = sizeof d; // 8
-    v4 = sizeof("gachon"); // 7 (6 + null)
+    v4 = sizeof("gachon"); // 7 (6 + null) 
     
     printf ("%d, %d, %d\n", sizeof i, sizeof c, sizeof d);
     printf ("%d, %d, %d\n", sizeof(int), sizeof(char), sizeof(double));
