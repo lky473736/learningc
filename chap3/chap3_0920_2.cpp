@@ -17,3 +17,7 @@ int main()
     printf ("%d", v4); // 6 + 1(널문자)
     return 0;
 }
+
+/* 복습
+바이트 수가 a <= b일 때, sizeof(a + b)는 max(a, b)이다. (time complexity의 합연산과 비슷)
+*/
