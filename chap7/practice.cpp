@@ -30,4 +30,15 @@ int main()
         }
         printf ("\n");
     }
+    
+    printf ("-----------\n");
+
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 9; j++)
+        {
+            printf ("%d * %d = %d ", *(arr1 + i), *(arr2 + j), *(arr1 + i) * *(arr2 + j));
+        }
+        printf ("\n");
+    }
 }
