@@ -18,3 +18,6 @@ int main()
     jungsu m = 37; // jungsu == int으로 형선언
     printf ("%d", m);
 }
+
+/* 복습
+pass*/
