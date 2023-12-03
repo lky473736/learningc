@@ -35,3 +35,6 @@ struct list *nalloc()
 {
     return ((struct list *)malloc(sizeof(struct list)));
 }
+
+/* 복습
+pass*/
