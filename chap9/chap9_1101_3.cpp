@@ -27,3 +27,29 @@ long fact (long c) // long형으로 return해준다
     
     return retval;
 }
+
+/* 복습
+factorial을 계산하기 위해 재귀함수를 사용하거나 반복문을 사용할 수 있다. 아래는 재귀함수를 사용한 코드이다.
+
+#include <stdio.h>
+
+int fact (int n);
+
+int main()
+{
+    printf ("%d", fact(10));
+}
+
+int fact (int n)
+{
+    if (n == 1)
+    {
+        return 1;
+    }
+
+    else 
+    {
+        return n * fact (n-1);
+    }
+}
+*/
