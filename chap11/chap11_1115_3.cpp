@@ -18,3 +18,19 @@ int main()
     jungsu m = 37; // jungsu == int으로 형선언
     printf ("%d", m);
 }
+
+/* 복습
+새로운 형을 선언하기 위해서 typedef를 사용한다.
+
+typedef 형선언 형명;
+
+예를 들어서, 
+typedef int daramji;
+
+이러면 이젠 int 대신 daramji라는 형 선언을 할 수 있다.
+
+daramji a;
+int a;
+
+는 서로 같은 형 선언이 된다.
+*/
