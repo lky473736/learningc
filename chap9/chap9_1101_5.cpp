@@ -15,3 +15,7 @@ void func (int a, int b, int *sum)
 {
     *sum = a + b;
 }
+
+/* 복습
+pass
+*/
