@@ -17,3 +17,30 @@ int hap()
     }
     return z;
 }
+
+/* 복습
+위 코드를 recursive call로도, 공식으로도 해결이 가능하다. 
+
+(1) recursive call
+
+static i = 10;
+
+int hap()
+{
+    if (i == 0) {
+        return 0;
+    }
+
+    else {
+        return i-- + hap(); 
+    }
+}
+
+(2) 공식 : 등차수열 n의 합공식
+
+int hap(int n)
+{
+    return (n) * (n + 1) / 2;
+}
+
+*/
